@@ -1,0 +1,6 @@
+/* .bgjictbg{
+    background-image: url('../../assets/bglogin1.jpg');
+} */
+.bgjictbg {
+    background: linear-gradient(to bottom, #26ACFA 60%, #0569eb 50%);
+}

@@ -1,0 +1,32 @@
+.floating-animation {
+    animation: floating 3s infinite;
+}
+@keyframes floating {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes blinking-border {
+    0% {
+        border-color: #ef4444; /* red-500 */
+        box-shadow: 0 0 8px rgba(239, 68, 68, 0.6);
+    }
+    50% {
+        border-color: transparent;
+        box-shadow: none;
+    }
+    100% {
+        border-color: #ef4444;
+        box-shadow: 0 0 8px rgba(239, 68, 68, 0.6);
+    }
+}
+.blinking-border {
+    animation: blinking-border 1.5s infinite;
+    border-width: 2px; /* Ensure border is visible */
+}

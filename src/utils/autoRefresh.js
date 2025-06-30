@@ -1,0 +1,1 @@
+export const autoRefresh = 10000
